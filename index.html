@@ -2,55 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>TITLE</title>
+    <title>1D751Z</title>
 
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/solarized.css" id="theme" />
+    <link rel="stylesheet" href="reveal.js/dist/theme/night.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
-    <link
-      rel="stylesheet"
-      href="reveal.js/plugin/highlight/monokai.css"
-      id="highlight-theme"
-    />
+    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme" />
+
+    <link rel="stylesheet" href="./custom.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section
-          data-markdown
-          data-separator="-----"
-          data-separator-vertical="---"
-        >
-          <textarea data-template>
-            # Title Page
-
-            ### Date
-
-            -----
-            
-            ---
-            
-            ---
-            
-            ---
-            
-            -----
-
-            ## made with
-
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-
-            #### [excalidraw](https://github.com/excalidraw/excalidraw)
-
-          </textarea>
-        </section>
+          data-markdown="slides.md"
+          data-separator="^\r?\n-----\r?\n$"
+          data-separator-vertical="^\r?\n---\r?\n$"
+          data-notes="^Notes:"
+          data-charset="utf-8"
+        ></section>
       </div>
     </div>
 
@@ -69,6 +45,10 @@
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
       });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
     </script>
   </body>
 </html>

@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #c2870a !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+p,
+li {
+  color: #94ff99 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 75%);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 50%);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: hsl(0, 0%, 25%);
+}
