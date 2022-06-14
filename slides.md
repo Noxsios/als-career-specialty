@@ -89,7 +89,7 @@ secure & war winning cyber, C3I & network systems”`
   - AMC (Air Mobility Command) heavily using Mattermost and Puckboard
 - Command and Control
 
--------
+---
 
 <div class="mermaid">
 graph LR
