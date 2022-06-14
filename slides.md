@@ -57,7 +57,7 @@ and effectively.
 
 ## Contribution to Squadron (P1)
 
-Mission: 
+`"Transform how the DoD delivers of warfighter capability through innovative frameworks, collaborative culture, and secure software."`
 
 ---
 
@@ -70,8 +70,14 @@ Mission:
 
 ## Contribution to Wing (CCSD)
 
-Mission: `“Connecting warfighters with affordable,
+`“Connecting warfighters with affordable,
 secure & war winning cyber, C3I & network systems”`
+
+---
+
+## In Action
+
+[The Big Bang Product](https://p1.dso.mil/products/big-bang)
 
 -----
 
@@ -83,16 +89,42 @@ secure & war winning cyber, C3I & network systems”`
   - AMC (Air Mobility Command) heavily using Mattermost and Puckboard
 - Command and Control
 
+-------
+
+<div class="mermaid">
+graph LR
+    A(Me) -->|My Job| B(Platform One - SQ)
+    A --> C
+    A --> D
+    B -->|Big Bang| C[CCSD - WG]
+    C -->|Party Bus| D{AF Core Missions}
+    B --> D
+</div>
 
 -----
 
 ## Why We Matter
 
+- Left to the mercy of contractors
+- Unable to create in house software solutions
+- Unable to mitigate critical software vulnerabilities
+- No software interface with our OCO and DCO
+
+-----
+
+# End
+
+-----
+
+## Rant
+
+```text
+Can I get a website that myF*cking works?
+```
+
+- Innovation efforts are not nearly enough, SparkTank is a joke
+- Information dissemination is still a major issue (Reddit, Facebook etc...)
 - myEval
 - AFIMS II ➡️ myFitness
 - vMPF
 - ADLS ➡️ myTraining
-
-<!-- ```text
-Can I get a website that myF*cking works?
-``` -->
